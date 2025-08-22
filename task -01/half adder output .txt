@@ -1,0 +1,12 @@
+
+output:
+generator test cases: a=0,b=0
+# KERNEL: generator test cases: a=0,b=1
+# KERNEL: generator test cases: a=1,b=0
+# KERNEL: generator test cases: a=1,b=1
+# KERNEL: generator test cases: a=0,b=0
+# KERNEL: driver applied values: a=0, b=0 -> DUT OUTPUT: sum: 0, carry: 0
+# KERNEL: driver applied values: a=0, b=1 -> DUT OUTPUT: sum: 1, carry: 0
+# KERNEL: driver applied values: a=1, b=0 -> DUT OUTPUT: sum: 1, carry: 0
+# KERNEL: driver applied values: a=1, b=1 -> DUT OUTPUT: sum: 0, carry: 1
+# KERNEL: driver applied values: a=0, b=0 -> DUT OUTPUT: sum: 0, carry: 0
