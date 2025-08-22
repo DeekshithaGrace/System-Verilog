@@ -1,0 +1,15 @@
+//half_subtract
+module hs(a,b,difference,borrow);
+  input a,b;
+  output difference,borrow;
+  assign difference=a^b;
+  assign borrow=~a&b;
+  endmodule
+  
+//......interface..........
+interface inter;
+  logic a;
+  logic b;
+  logic difference;
+  logic borrow;
+endinterface
