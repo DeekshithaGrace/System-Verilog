@@ -1,0 +1,15 @@
+\\full_subtract
+module full_subtractor(a,b, bin,barrow,difference);
+  input a,b,bin;
+  output barrow,difference;
+  assign difference = a ^ b ^ bin;
+  assign barrow = (a & b) | ((a ^ b) & bin);
+ endmodule
+//.......... Interface......
+interface inter;
+  logic a;
+  logic b;
+  logic bin;
+  logic difference;
+  logic barrow;
+endinterface
