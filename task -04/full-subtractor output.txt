@@ -1,0 +1,16 @@
+output:Generator test cases: a=0, b=0, bin=0
+# KERNEL: Generator test cases: a=0, b=0, bin=1
+# KERNEL: Generator test cases: a=0, b=1, bin=0
+# KERNEL: Generator test cases: a=0, b=1, bin=1
+# KERNEL: Generator test cases: a=1, b=0, bin=0
+# KERNEL: Generator test cases: a=1, b=0, bin=1
+# KERNEL: Generator test cases: a=1, b=1, bin=0
+# KERNEL: Generator test cases: a=1, b=1, bin=1
+# KERNEL: Driver applied values: a=0, b=0, bin=0 -> DUT OUTPUT: difference=0, barrow=0
+# KERNEL: Driver applied values: a=0, b=0, bin=1 -> DUT OUTPUT: difference=1, barrow=0
+# KERNEL: Driver applied values: a=0, b=1, bin=0 -> DUT OUTPUT: difference=1, barrow=0
+# KERNEL: Driver applied values: a=0, b=1, bin=1 -> DUT OUTPUT: difference=0, barrow=1
+# KERNEL: Driver applied values: a=1, b=0, bin=0 -> DUT OUTPUT: difference=1, barrow=0
+# KERNEL: Driver applied values: a=1, b=0, bin=1 -> DUT OUTPUT: difference=0, barrow=1
+# KERNEL: Driver applied values: a=1, b=1, bin=0 -> DUT OUTPUT: difference=0, barrow=1
+# KERNEL: Driver applied values: a=1, b=1, bin=1 -> DUT OUTPUT: difference=1, barrow=1
